@@ -5,6 +5,7 @@ profile:
   align: right
   image: avatar.jpg
 published: true
+foo: bar
 ---
 
 Hi there! 👋 Nice to meet you.
