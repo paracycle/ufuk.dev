@@ -6,6 +6,8 @@ layout: default
   {% for post in paginator.posts %}
     <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     <p>{{post.excerpt | strip_html}}</p>
+  {% else %}
+    <p>Nothing to see here, yet :(</p>
   {% endfor %}
 </div>
 
