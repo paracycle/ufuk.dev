@@ -1,28 +1,25 @@
 ### your site title here
 
-title: Your Name
-description: subtitle | affiliations | motto
+title: Ufuk Kayserilioglu
+description: Engineering Manager | Ruby Infrastructure Team @ Shopify
 
-baseurl: /gradfolio #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
-email: #
+baseurl: "" #name of GitHub repository
+url: "ufuk.dev" #custom url to be used instead of GitHub repository
+email: ufuk@paralaus.com
 
 
 highlighter: rouge
 markdown: kramdown
 
 # Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
+paginate: 15
+permalink: /posts/:title/
+paginate_path: /posts/page:num/
 
 # Social media links in footer
-facebook: "#"
-twitter: "#"
-linkedin: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
+twitter: "paracycle"
+linkedin: "ufukkayserilioglu"
+github: "paracycle"
 
 highlighter: rouge
 markdown: kramdown
