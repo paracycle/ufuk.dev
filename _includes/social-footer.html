@@ -4,16 +4,16 @@
 <a title="{{ _locale_string_email }}"
 class="social-button email" itemprop="email"
 href="mailto:{{ site.email | encode_email }}" target="_blank">
-<i class="far fa-envelope"></i>
+<i class="fas fa-envelope"></i>
 </a>
 {%- endif -%}
 
-{%- if site.linkedin -%}
-<a title="{{ _locale_string_follow | replace: '[NAME]', 'LinkedIn' }}"
-class="social-button linkedin"
-href="https://www.linkedin.com/in/{{ site.linkedin }}" itemprop="sameAs"
+{%- if site.twitter -%}
+<a title="{{ _locale_string_follow | replace: '[NAME]', 'Twitter' }}"
+class="social-button twitter"
+href="https://www.twitter.com/{{ site.twitter }}" itemprop="sameAs"
 target="_blank">
-<i class="fab fa-linkedin"></i>
+<i class="fab fa-twitter"></i>
 </a>
 {%- endif -%}
 
@@ -26,30 +26,12 @@ target="_blank">
 </a>
 {%- endif -%}
 
-{%- if site.researchgate -%}
-<a title="{{ _locale_string_follow | replace: '[NAME]', 'ResearchGate' }}"
-class="social-button researchgate"
-href="https://www.researchgate.net/profile/{{ site.researchgate }}" itemprop="sameAs"
+{%- if site.linkedin -%}
+<a title="{{ _locale_string_follow | replace: '[NAME]', 'LinkedIn' }}"
+class="social-button linkedin"
+href="https://www.linkedin.com/in/{{ site.linkedin }}" itemprop="sameAs"
 target="_blank">
-<i class="fab fa-researchgate"></i>
-</a>
-{%- endif -%}
-
-{%- if site.orcid -%}
-<a title="{{ _locale_string_follow | replace: '[NAME]', 'Orcid' }}"
-class="social-button orcid"
-href="https://orcid.org/{{ site.orcid }}" itemprop="sameAs"
-target="_blank">
-<i class="fab fa-orcid"></i>
-</a>
-{%- endif -%}
-
-{%- if site.twitter -%}
-<a title="{{ _locale_string_follow | replace: '[NAME]', 'Twitter' }}"
-class="social-button twitter"
-href="https://www.twitter.com/{{ site.twitter }}" itemprop="sameAs"
-target="_blank">
-<i class="fab fa-twitter"></i>
+<i class="fab fa-linkedin"></i>
 </a>
 {%- endif -%}
 
