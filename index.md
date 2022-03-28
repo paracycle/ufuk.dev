@@ -3,12 +3,16 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: profile.png
+  image: avatar.jpg
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+Hi there! 👋 Nice to meet you.
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
+I am a theoretical high energy physicist turned software developer turned engineering manager. I've been in the software industry for over 20 years and have had the opportunity to work with technologies across the full stack.
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+Currently I am working at [Shopify](https://shopify.com) as the Engineering Manager of the Ruby Infrastructure Team.
+
+Our team is responsible for ensuring that the Ruby language and tooling around it continues to thrive and develop for years to come. For that purpose, we work on making improvements to the Ruby language such as building [a high-performance JIT compiler inside CRuby](https://speed.yjit.org), optimizing [the memory layout of CRuby objects for better performance](https://rubykaigi.org/2021-takeout/presentations/peterzhu2118.html), and implementing [object shapes for simpler and faster ivar access](https://rubykaigi.org/2021-takeout/presentations/chrisgseaton.html).
+
+We also work on improving Ruby developer experience through [gradual types adoption using Sorbet](https://shopify.engineering/rubyconf-2021-the-talks-you-might-have-missed#:~:text=Gradual%20Typing%20in%20Ruby%E2%80%93A%20Three%20Year%20Retrospective) and by [building LSP-based editor tooling](https://marketplace.visualstudio.com/publishers/Shopify).
