@@ -47,17 +47,17 @@ a {
 p a {
   color: $text-color;
   text-decoration: none;
-  background: -webkit-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
-  background: -moz-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
-  background: linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
+  background: -webkit-linear-gradient(transparent 95%, lighten($brand-color, 10%) 5%);
+  background: -moz-linear-gradient(transparent 95%, lighten($brand-color, 10%) 5%);
+  background: linear-gradient(transparent 95%, lighten($brand-color, 10%) 5%);
 
   -webkit-box-shadow: inset 0 0 0 0 lighten($brand-color, 10%);
   box-shadow: inset 0 0 0 0 lighten($brand-color, 10%);
 
 
-  -webkit-transition: box-shadow ease 1s;
-  -moz-transition: box-shadow ease 1s;
-  transition: box-shadow ease 1s;
+  -webkit-transition: box-shadow ease 500ms;
+  -moz-transition: box-shadow ease 500ms;
+  transition: box-shadow ease 500ms;
   &:hover {
     color: lighten($background-color, 50%);
     -webkit-box-shadow: inset 0 -100px 0 0 lighten($brand-color, 10%);
