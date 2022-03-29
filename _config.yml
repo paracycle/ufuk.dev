@@ -9,6 +9,7 @@ email: ufuk@paralaus.com
 twitter:
   username: paracycle
   card: summary
+
 social:
   name: Ufuk Kayserilioglu
   links:
@@ -26,9 +27,10 @@ permalink: /posts/:title/
 paginate_path: /posts/page:num/
 
 # Social media links in footer
-twitter: "paracycle"
-linkedin: "ufukkayserilioglu"
-github: "paracycle"
+social:
+  twitter: "paracycle"
+  linkedin: "ufukkayserilioglu"
+  github: "paracycle"
 
 # Tracker
 analytics:

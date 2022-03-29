@@ -1,44 +1,44 @@
 <div class="rounded-social-buttons">
 
-{%- if site.email -%}
+{%- if site.social.email -%}
 <a title="{{ _locale_string_email }}"
 class="social-button email" itemprop="email"
-href="mailto:{{ site.email | encode_email }}" target="_blank">
+href="mailto:{{ site.social.email | encode_email }}" target="_blank">
 <i class="fas fa-envelope"></i>
 </a>
 {%- endif -%}
 
-{%- if site.twitter -%}
+{%- if site.social.twitter -%}
 <a title="{{ _locale_string_follow | replace: '[NAME]', 'Twitter' }}"
 class="social-button twitter"
-href="https://www.twitter.com/{{ site.twitter }}" itemprop="sameAs"
+href="https://www.twitter.com/{{ site.social.twitter }}" itemprop="sameAs"
 target="_blank">
 <i class="fab fa-twitter"></i>
 </a>
 {%- endif -%}
 
-{%- if site.github -%}
+{%- if site.social.github -%}
 <a title="{{ _locale_string_follow | replace: '[NAME]', 'GitHub' }}"
 class="social-button github"
-href="https://www.github.com/{{ site.github }}" itemprop="sameAs"
+href="https://www.github.com/{{ site.social.github }}" itemprop="sameAs"
 target="_blank">
 <i class="fab fa-github"></i>
 </a>
 {%- endif -%}
 
-{%- if site.linkedin -%}
+{%- if site.social.linkedin -%}
 <a title="{{ _locale_string_follow | replace: '[NAME]', 'LinkedIn' }}"
 class="social-button linkedin"
-href="https://www.linkedin.com/in/{{ site.linkedin }}" itemprop="sameAs"
+href="https://www.linkedin.com/in/{{ site.social.linkedin }}" itemprop="sameAs"
 target="_blank">
 <i class="fab fa-linkedin"></i>
 </a>
 {%- endif -%}
 
-{%- if site.facebook -%}
+{%- if site.social.facebook -%}
 <a title="{{ _locale_string_follow | replace: '[NAME]', 'Facebook' }}"
 class="social-button facebook" itemprop="sameAs"
-href="https://www.facebook.com/{{ site.facebook }}"
+href="https://www.facebook.com/{{ site.social.facebook }}"
 target="_blank">
 <i class="fab fa-facebook-f"></i>
 </a>
