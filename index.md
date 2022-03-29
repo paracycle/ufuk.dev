@@ -5,7 +5,6 @@ image: /assets/images/avatar.jpg
 profile:
   align: right
 published: true
-foo: bar
 ---
 
 Hi there! 👋 Nice to meet you.
