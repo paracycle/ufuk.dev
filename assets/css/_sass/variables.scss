@@ -14,11 +14,13 @@ $brand-color:      #dd2222;
 $body-bg: #fdfdfd;
 $projectbox: #cfe6a4;
 $text-color: #333;
+$headline-color: $text-color;
 
 // Color scheme for dark modes
 $body-bg-dark: #061725;
 $projectbox-dark: lighten($body-bg-dark, 10%);
 $text-color-dark: #777;
+$headline-color-dark: #ddd;
 
 // Colour palette for project boxes
 $theme1: ("one",#388087),("two", #6FB3B8),("three",#BADFE7),("four",#C2EDCE),("five",#F6F6F2);

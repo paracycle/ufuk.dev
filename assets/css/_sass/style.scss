@@ -116,6 +116,14 @@ blockquote {
   }
 }
 
+.post-headline, .post-description {
+  color: $headline-color;
+
+  @media (prefers-color-scheme: dark) {
+    color: $headline-color-dark;
+  }
+}
+
 /* Pagination style in index/home page */
 .pagination {
   margin: 2em 0;
