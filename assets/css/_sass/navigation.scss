@@ -1,0 +1,23 @@
+/* Footer navigation links */
+nav {
+  & > a {
+    margin-right: 1em;
+    padding: 0.4em;
+
+    &.active {
+      background-color: #d22;
+      color: #fff;
+    }
+  }
+  /* Horizontal scrolling navbar. From: https://is.gd/WuJxqy */
+  &.scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

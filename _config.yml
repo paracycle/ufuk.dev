@@ -62,6 +62,16 @@ exclude:
   - README.md
   - LICENSE.md
 
+navigation:
+  - title: Home
+    url: /
+  # - title: Talks
+  #   url: /talks/
+  - title: Posts
+    url: /posts/
+  - title: Archive
+    url: /archive/
+
 defaults:
   - scope:
       path: "assets/images"
