@@ -1,8 +1,12 @@
 /* Footer navigation links */
 nav {
+  margin: 1em 0;
+
   & > a {
-    margin-right: 1em;
-    padding: 0.4em;
+    margin-right: 0.5em;
+    padding: 0 0.4em;
+    display: inline-block;
+    border-radius: 6px;
 
     &.active {
       background-color: #d22;
