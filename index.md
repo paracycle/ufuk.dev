@@ -1,9 +1,9 @@
 ---
 layout: about
 permalink: /
+image: /assets/images/avatar.jpg
 profile:
   align: right
-  image: avatar.jpg
 published: true
 foo: bar
 ---

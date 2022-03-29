@@ -3,48 +3,43 @@
 ---
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
 
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+  {% seo %}
 
-        <h1 class="post-headline">{{site.title}}</h1>
-        <h3 class="post-description">{{site.description}}</h3>
+  {% include favicon.html %}
 
-        {% include navigation.html %}
+  {% include mathjax.html %}
 
-        {% seo %}
+  <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+  <script src="https://kit.fontawesome.com/e96714f58f.js" crossorigin="anonymous"></script>
+</head>
 
-        {% include favicon.html %}
+<body class="{{ page.dir | replace: "/", "" }}">
+  <h1 class="post-headline">{{site.title}}</h1>
+  <h3 class="post-description">{{site.description}}</h3>
 
-        {% include mathjax.html %}
+  {% include navigation.html %}
 
-        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
-        <script src="https://kit.fontawesome.com/e96714f58f.js" crossorigin="anonymous"></script>
-    </head>
+  <main>
+    {{ content }}
+  </main>
 
-    <body>
-        <main>
-            <article>
-                {{ content }}
-            </article>
-        </main>
+  <footer>
+    <p class="copy">
+      <small> &copy; {{site.title}} {{ site.time | date: '%Y' }}
+              | Powered by Jekyll and
+              <a target="_blank" href="https://github.com/jitinnair1/gradfolio/">Gradfolio</a>.
+      </small>
+    </p>
 
-        <footer>
-          <p class="copy">
-            <small> &copy; {{site.title}} {{ site.time | date: '%Y' }}
-                    | Powered by Jekyll and
-                    <a target="_blank" href="https://github.com/jitinnair1/gradfolio/">Gradfolio</a>.
-            </small>
-          </p>
+    {% include social-footer.html %}
 
-        {% include social-footer.html %}
+  </footer>
 
-        </footer>
-
-        {% include analytics.html %}
-
-    </body>
-
+  {% include analytics.html %}
+</body>
 </html>

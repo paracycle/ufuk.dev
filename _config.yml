@@ -1,11 +1,20 @@
-### your site title here
+baseurl: ""
 
-title: Ufuk Kayserilioglu
-description: Engineering Manager | Ruby Infrastructure Team @ Shopify
-
-baseurl: "" #name of GitHub repository
-url: "ufuk.dev" #custom url to be used instead of GitHub repository
+title: "Ufuk Kayserilioglu"
+description: "Engineering Manager - Ruby Infrastructure Team at Shopify"
+url: "https://ufuk.dev"
 email: ufuk@paralaus.com
+
+# SEO
+twitter:
+  username: paracycle
+  card: summary
+social:
+  name: Ufuk Kayserilioglu
+  links:
+    - https://twitter.com/paracycle
+    - https://github.com/paracycle
+    - https://linkedin.com/in/ufukkayserilioglu
 
 
 highlighter: rouge
