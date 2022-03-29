@@ -1,5 +1,6 @@
 ---
 layout: about
+title: Home
 permalink: /
 image: /assets/images/avatar.jpg
 profile:
