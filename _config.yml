@@ -49,6 +49,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  talks:
+    output: false
+    permalink: /talks/:path/
 
 sass:
   sass_dir: /assets/css/_sass

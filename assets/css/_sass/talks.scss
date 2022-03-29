@@ -1,0 +1,55 @@
+article.talk {
+  border: solid $brand-color;
+  border-width: 0 0 1px;
+  padding: 1em 0 2em;
+  border-collapse: collapse;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  h2 {
+    color: $brand-color;
+  }
+
+  h3 {
+    color: $brand-color;
+  }
+  time {
+    float: right;
+    line-height: 2;
+    font-size: 0.9em;
+  }
+
+  i {
+    font-size: 0.9em;
+  }
+
+  a {
+    margin: 0 1em 0 0.1em;
+    color: $text-color;
+    text-decoration: none;
+    background: -webkit-linear-gradient(transparent 95%, lighten($brand-color, 10%) 5%);
+    background: -moz-linear-gradient(transparent 95%, lighten($brand-color, 10%) 5%);
+    background: linear-gradient(transparent 95%, lighten($brand-color, 10%) 5%);
+
+    -webkit-box-shadow: inset 0 0 0 0 lighten($brand-color, 10%);
+    box-shadow: inset 0 0 0 0 lighten($brand-color, 10%);
+
+
+    -webkit-transition: box-shadow ease 500ms;
+    -moz-transition: box-shadow ease 500ms;
+    transition: box-shadow ease 500ms;
+
+    &:hover {
+      color: lighten($background-color, 50%);
+      -webkit-box-shadow: inset 0 -100px 0 0 lighten($brand-color, 10%);
+      box-shadow: inset 0 -100px 0 0 lighten($brand-color, 10%);
+
+    }
+
+    @media (prefers-color-scheme: dark) {
+      color: $text-color-dark;
+    }
+  }
+}
