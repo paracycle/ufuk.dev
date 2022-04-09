@@ -70,8 +70,8 @@ exclude:
 navigation:
   - title: Home
     url: /
-  # - title: Talks
-  #   url: /talks/
+  - title: Talks
+    url: /talks/
   - title: Posts
     url: /posts/
   - title: Archive

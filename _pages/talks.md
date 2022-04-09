@@ -5,7 +5,7 @@ permalink: /talks/
 published: true
 ---
 
-{% for talk in site.talks %}
+{% for talk in site.talks reversed %}
   <article class="talk">
     <h2>{{ talk.title }}</h2>
     <time datetime="{{ talk.date | date_to_xmlschema }}">{{ talk.date | date: '%B %Y' }}</time>
