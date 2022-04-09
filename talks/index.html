@@ -60,6 +60,10 @@
   
     
     
+    <a href="/talks/" class="active">Talks</a>
+  
+    
+    
     <a href="/posts/" class="">Posts</a>
   
     
@@ -72,20 +76,72 @@
   <main>
     
 <article class="talk">
-    <h2>Adopting Sorbet at Scale</h2>
-    <time datetime="2019-11-19T00:00:00+00:00">November 2019</time>
-    <h3>RubyConf 2019</h3>
+    <h2>Gradual Typing In Ruby - A Three Year Retrospective</h2>
+    <time datetime="2021-11-09T00:00:00+00:00">November 2021</time>
+    <h3>RubyConf 2021</h3>
     <p></p>
-<p>Shopify is a platform used by 800K merchants generating 12B$ revenue per year, serving 80K requests per second. Our core monolith is a 21K file Ruby on Rails application modified by 800 PRs per day. At this scale, we’re always looking out for tools that improve our confidence in the code that we write and maintain.</p>
+<p>We began adopting gradual typing on Shopify’s giant monolith almost 3 years ago. Today, we are running the monolith with great type coverage and even see some internal teams commit to stricter typing in their components.</p>
 
-<p>In this talk, we’ll explain how we adopted Sorbet to leverage static typing in our Ruby codebase. We’ll talk about our journey, the challenges we faced and how we overcame them. Based on this experience, you’ll get a better understanding of how you can benefit from Sorbet, too.</p>
+<p>The road to get here was not easy, though. We had to work with our developers to solve the right problems at the right levels of abstraction to ensure the adoption was healthy. This talk will go over some of the challenges and some of our wins along the way. It will also help you decide if gradual typing might work for your codebase and your team, as well.</p>
 
   
-    <i class="fas fa-video"></i> <a href="https://www.youtube.com/watch?v=v9oYeSZGkUw&amp;list=PLE7tQUdRKcyZDE8nFrKaqkpd-XK4huygU&amp;index=15&amp;t=0s" target="_blank" rel="noopener noreferrer">Video</a>
+    <i class="fas fa-video"></i> <a href="https://youtu.be/a3jfpSmikdg" target="_blank" rel="noopener noreferrer">Video</a>
   
   
     <i class="fas fa-person-chalkboard"></i> <a href="https://speakerdeck.com/ufuk/adopting-sorbet-at-scale" target="_blank" rel="noopener noreferrer">Slides</a>
   
+  
+  </article>
+
+<article class="talk">
+    <h2>Demystifying DSLs for better analysis and understanding</h2>
+    <time datetime="2021-09-09T00:00:00+00:00">September 2021</time>
+    <h3>RubyKaigi 2021</h3>
+    <p></p>
+<p>The ability to create DSLs is one of the biggest strengths of Ruby. They allow us to write easy to use interfaces and reduce the need for boilerplate code. On the flip side, DSLs encapsulate complex logic which makes it hard for developers to understand what’s happening under the covers.</p>
+
+<p>Surfacing DSLs as static artifacts makes working with them much easier. Generating RBI/RBS files that declare the methods which are dynamically created at runtime, allows static analyzers like Sorbet or Steep to work with DSLs. This also allows for better developers tooling and as some kind of “DSL linter”.</p>
+
+  
+    <i class="fas fa-video"></i> <a href="https://youtu.be/Ms7_PrryvMM" target="_blank" rel="noopener noreferrer">Video</a>
+  
+  
+    <i class="fas fa-person-chalkboard"></i> <a href="https://speakerdeck.com/ufuk/demystifying-dsls-for-better-analysis-and-understanding" target="_blank" rel="noopener noreferrer">Slides</a>
+  
+  
+  </article>
+
+<article class="talk">
+    <h2>Reflecting on Ruby Reflection for Rendering RBIs</h2>
+    <time datetime="2020-09-04T00:00:00+00:00">September 2020</time>
+    <h3>RubyKaigi 2020</h3>
+    <p></p>
+<p>As part of our adoption process of Sorbet at Shopify, we needed an automated way to teach Sorbet about our ~400 gem dependencies. We decided to tackle this problem by generating interface files (RBI) for each gem via runtime reflection.</p>
+
+<p>However, this turns out to not be as simple as it sounds; the flexible nature of Ruby allows gem authors to do many wild things that make this Hard. Come and hear about all the lessons that we learnt about runtime reflection in Ruby while building <code class="language-plaintext highlighter-rouge">tapioca</code>.</p>
+
+  
+    <i class="fas fa-video"></i> <a href="https://youtu.be/OJRQAn6BfpE" target="_blank" rel="noopener noreferrer">Video</a>
+  
+  
+  
+  </article>
+
+<article class="talk">
+    <h2>The Curious Case of the Bad Clone</h2>
+    <time datetime="2020-05-05T00:00:00+00:00">May 2020</time>
+    <h3>RailsConf 2021</h3>
+    <p></p>
+<p>As Rails developers, we depend on network protocols to ensure the products we build are available and accessible to our users. Despite this, many of us are poorly aware of how the layers of the network stack actually work, or why they are there.</p>
+
+<p>Understanding the things that happen between physical signals on the wire and your Rails application will help you hone your craft and level you up. Fortunately, the basic concepts of network protocols are easy to grasp, with a little guidance. So let’s walk together through these concepts, and peel away the layers of the network stack one by one.</p>
+
+  
+    <i class="fas fa-video"></i> <a href="https://youtu.be/xPJgSca6TJc" target="_blank" rel="noopener noreferrer">Video</a>
+  
+  
+  
+    <i class="fas fa-globe"></i> <a href="https://peelingawaythelayers.net" target="_blank" rel="noopener noreferrer">Site</a>
   
   </article>
 
@@ -104,6 +160,24 @@
   
   
     <i class="fas fa-globe"></i> <a href="https://peelingawaythelayers.net" target="_blank" rel="noopener noreferrer">Site</a>
+  
+  </article>
+
+<article class="talk">
+    <h2>Adopting Sorbet at Scale</h2>
+    <time datetime="2019-11-19T00:00:00+00:00">November 2019</time>
+    <h3>RubyConf 2019</h3>
+    <p></p>
+<p>Shopify is a platform used by 800K merchants generating 12B$ revenue per year, serving 80K requests per second. Our core monolith is a 21K file Ruby on Rails application modified by 800 PRs per day. At this scale, we’re always looking out for tools that improve our confidence in the code that we write and maintain.</p>
+
+<p>In this talk, we’ll explain how we adopted Sorbet to leverage static typing in our Ruby codebase. We’ll talk about our journey, the challenges we faced and how we overcame them. Based on this experience, you’ll get a better understanding of how you can benefit from Sorbet, too.</p>
+
+  
+    <i class="fas fa-video"></i> <a href="https://www.youtube.com/watch?v=v9oYeSZGkUw&amp;list=PLE7tQUdRKcyZDE8nFrKaqkpd-XK4huygU&amp;index=15&amp;t=0s" target="_blank" rel="noopener noreferrer">Video</a>
+  
+  
+    <i class="fas fa-person-chalkboard"></i> <a href="https://speakerdeck.com/ufuk/adopting-sorbet-at-scale" target="_blank" rel="noopener noreferrer">Slides</a>
+  
   
   </article>
 
