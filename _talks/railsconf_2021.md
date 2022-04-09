@@ -2,8 +2,7 @@
 layout: default
 title: The Curious Case of the Bad Clone
 event: RailsConf 2021
-video: https://youtu.be/xPJgSca6TJc
-site: https://peelingawaythelayers.net
+video: https://youtu.be/ok45gtFuMO8
 date: 2020-05-05 00:00 +0000
 ---
 
