@@ -13,7 +13,11 @@ article.talk {
   }
 
   h3 {
-    color: $brand-color;
+    color: $headline-color;
+
+    @media (prefers-color-scheme: dark) {
+      color: $headline-color-dark;
+    }
   }
   time {
     float: right;
@@ -51,6 +55,22 @@ article.talk {
 
     @media (prefers-color-scheme: dark) {
       color: $text-color-dark;
+    }
+  }
+
+  p.footer {
+    color: $headline-color;
+
+    @media (prefers-color-scheme: dark) {
+      color: $headline-color-dark;
+    }
+
+    a {
+      color: $headline-color;
+
+      @media (prefers-color-scheme: dark) {
+        color: $headline-color-dark;
+      }
     }
   }
 }
