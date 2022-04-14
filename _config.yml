@@ -54,6 +54,9 @@ collections:
   talks:
     output: false
     permalink: /talks/:path/
+  podcasts:
+    output: false
+    permalink: /podcasts/:path/
 
 sass:
   sass_dir: /assets/css/_sass
@@ -72,6 +75,8 @@ navigation:
     url: /
   - title: Talks
     url: /talks/
+  - title: Podcasts
+    url: /podcasts/
   - title: Posts
     url: /posts/
   - title: Archive
