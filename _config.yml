@@ -77,10 +77,10 @@ navigation:
     url: /talks/
   - title: Podcasts
     url: /podcasts/
-  - title: Posts
-    url: /posts/
-  - title: Archive
-    url: /archive/
+  # - title: Posts
+  #   url: /posts/
+  # - title: Archive
+  #   url: /archive/
 
 defaults:
   - scope:
