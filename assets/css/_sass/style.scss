@@ -82,12 +82,9 @@ img {
 pre,
 code {
   overflow: auto;
-  font-size: 0.7*$base-font-size;
-  border-radius: 3px;
-  border: 1px solid $brand-color;
-  > code {
-    border: none;
-  }
+  margin: 0;
+  font-size: 0.8*$base-font-size;
+  border-radius: 6px;
 }
 
 pre {
@@ -95,7 +92,16 @@ pre {
 }
 
 code {
-  padding: 0.1em;
+  padding: 0.2em 0.4em;
+
+  &.highlighter-rouge {
+    background-color: $code-background;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: #272822;
+      color: #f8f8f2;
+    }
+  }
 }
 
 blockquote {
