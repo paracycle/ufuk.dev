@@ -16,6 +16,7 @@ social:
     - https://twitter.com/paracycle
     - https://github.com/paracycle
     - https://linkedin.com/in/ufukkayserilioglu
+    - https://ruby.social/@ufuk
 
 
 highlighter: rouge
@@ -31,6 +32,7 @@ social:
   twitter: "paracycle"
   linkedin: "ufukkayserilioglu"
   github: "paracycle"
+  mastodon: "ruby.social/@ufuk"
 
 # Tracker
 analytics:
