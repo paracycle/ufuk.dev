@@ -31,7 +31,6 @@ article.talk {
   }
 
   a {
-    margin: 0 1em 0 0.1em;
     color: $text-color;
     text-decoration: none;
     background: -webkit-linear-gradient(transparent 95%, lighten($brand-color, 10%) 5%);
@@ -66,6 +65,7 @@ article.talk {
     }
 
     a {
+      margin: 0 1em 0 0.1em;
       color: $headline-color;
 
       @media (prefers-color-scheme: dark) {

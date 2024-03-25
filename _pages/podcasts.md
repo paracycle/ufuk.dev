@@ -20,10 +20,12 @@ published: true
     {{ podcast.content }}
     <p class="footer">
     {% if podcast.link %}
-      <i class="fas fa-microphone"></i> <a href="{{ podcast.link }}">Listen</a>
+      <i class="fas fa-microphone"></i>
+      <a href="{{ podcast.link }}">Listen</a>
     {% endif %}
     {% if podcast.video %}
-      <i class="fas fa-video"></i> <a href="{{ podcast.video }}">Watch</a>
+      <i class="fas fa-video"></i>
+      <a href="{{ podcast.video }}">Watch</a>
     {% endif %}
     </p>
   </article>
