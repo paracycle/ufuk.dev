@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ruby Loyalty and Engineering Management with Ufuk Kayserilioglu
-podcast: Ruby on Rails Podcast
+podcast: The Ruby on Rails Podcast
 link: https://www.therubyonrailspodcast.com/410
 episode: 410
 date: 2022-03-23 00:00 +0000
