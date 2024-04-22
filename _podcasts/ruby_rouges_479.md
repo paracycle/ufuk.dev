@@ -2,11 +2,9 @@
 layout: default
 title: Sorbet with Ufuk Kayserilioglu
 podcast: Ruby Rouges
-episode: 479
-link: https://rubyrogues.com/479
+episode: 471
+link: https://topenddevs.com/podcasts/ruby-rogues/episodes/rr-471-sorbet-with-ufuk-kayserilioglu
 date: 2020-09-22 00:00 +0000
 ---
 
-As Rails developers, we depend on network protocols to ensure the products we build are available and accessible to our users. Despite this, many of us are poorly aware of how the layers of the network stack actually work, or why they are there.
-
-Understanding the things that happen between physical signals on the wire and your Rails application will help you hone your craft and level you up. Fortunately, the basic concepts of network protocols are easy to grasp, with a little guidance. So let's walk together through these concepts, and peel away the layers of the network stack one by one.
+In this episode of Ruby Rogues, we talk with Ufuk about how Shopify made the transition to using Sorbet and about the benefits they felt they received from implementing it. Ufuk also reveals a little bit about how Shopify transitioned to fully remote and about how that will be the default moving forward.
