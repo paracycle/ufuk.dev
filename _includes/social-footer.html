@@ -13,6 +13,19 @@
 </a>
 {%- endif -%}
 
+{%- if site.social.bluesky -%}
+<a
+  rel="me"
+  title="{{ _locale_string_follow | replace: '[NAME]', 'Bluesky' }}"
+  class="social-button bluesky"
+  href="https://bsky.app/profile/{{ site.social.bluesky }}"
+  itemprop="sameAs"
+  target="_blank"
+>
+  <i class="fab fa-bluesky"></i>
+</a>
+{%- endif -%}
+
 {%- if site.social.mastodon -%}
 <a
   rel="me"
